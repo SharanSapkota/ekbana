@@ -24,6 +24,7 @@ function Buttons({userDetails, text, details}) {
         }
         else {
             console.log("delete")
+            axios.delete(`/api/users/${userDetails.id}`)
         }
     }
 

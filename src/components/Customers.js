@@ -1,10 +1,6 @@
 import React, { FunctionComponent, useState, useEffect } from "react";
 import { MainTable } from "./Table/Table";
 import { getUsers } from "../services/client";
-import { Search } from "./Search";
-
-import { TextField } from "@material-ui/core";
-
 export const Customers = () => {
     const [clients, setClients] = useState([])
 
