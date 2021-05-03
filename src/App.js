@@ -18,6 +18,8 @@ console.log("bcd")
       <Switch>
           <Route exact path="/login" component={Login} />
 
+
+
           {/* inside customer */}
           <PrivateRoute path="/dashboard" component={Dashboard} />
 

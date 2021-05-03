@@ -1,10 +1,10 @@
 import React from 'react'
-import {Button} from '@material-ui/core'
+import {Button, Box} from '@material-ui/core'
 
 function Profile({ user }) {
 
     const onClickHandler = () => {
-        
+
     }
     
     console.log("user")
@@ -15,10 +15,21 @@ function Profile({ user }) {
 
     return (
         <div>
-            {/* {user.map((el) => {
-                return el
-            })} */}
+            <Box color="primary" fontSize="20" paddin= "12">
+                My Profile
+            </Box>
+            <div>
+                name: {user[0].name}
+            </div>
+            <div>
+                Phone: {user[0].phone_number}
+            </div>
+            <div>
+                email: {user[0].email}
+            </div>
+      
 
+            
             <Button color = "primary" onClick={() => onClickHandler()}>My orders</Button>
            
         </div>

@@ -15,17 +15,17 @@ export function makeServer({ environment = "development" } = {}) {
                 id: 1,
                 name: "sharan",
                 image: "https://images.squarespace-cdn.com/content/v1/5c82f54e7980b375f3b91cb0/1553904496023-JZ9JVMIZ3SNATLKXL190/ke17ZwdGBToddI8pDm48kDACKg16QbLoicCdsPgFzpd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmaTo7R26YudazsZkiHIvjoiB41FYjsaf5gQ_5G47s7cv1RIjSGCD6L0ZeeFd3jvQA/Toon+Link+%288%29.png",
-                password: "sharan", phone_number: 98234, email: "sapkota@gmail.com", orders: { "tv": 100 }
+                password: "sharan", phone_number: 98234, email: "sapkota@gmail.com", orders: [{"name":"TV",  "price": 100, "isActive": "false" }]
             })
             server.create("user", {
                 id: 2, name: "sharan0", image: "https://images.squarespace-cdn.com/content/v1/5c82f54e7980b375f3b91cb0/1553904496023-JZ9JVMIZ3SNATLKXL190/ke17ZwdGBToddI8pDm48kDACKg16QbLoicCdsPgFzpd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmaTo7R26YudazsZkiHIvjoiB41FYjsaf5gQ_5G47s7cv1RIjSGCD6L0ZeeFd3jvQA/Toon+Link+%288%29.png",
- password: "sharan", phone_number: 98234, email: "sapkota@gmail.com" ,  orders: { "tv": 100}  })
+ password: "sharan", phone_number: 98234, email: "sapkota@gmail.com" ,  orders: [{"name":"TV",  "price": 100, "isActive": "false"}]  })
             server.create("user", {
                 id: 3, name: "sharan1", image: "https://images.squarespace-cdn.com/content/v1/5c82f54e7980b375f3b91cb0/1553904496023-JZ9JVMIZ3SNATLKXL190/ke17ZwdGBToddI8pDm48kDACKg16QbLoicCdsPgFzpd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmaTo7R26YudazsZkiHIvjoiB41FYjsaf5gQ_5G47s7cv1RIjSGCD6L0ZeeFd3jvQA/Toon+Link+%288%29.png",
-password: "sharan", phone_number: 98234, email: "sapkota@gmail.com", orders: { "tv": 100 }   })
+password: "sharan", phone_number: 98234, email: "sapkota@gmail.com", orders: [{"name":"TV",  "price": 100, "isActive": "false" }]   })
             server.create("user", {
                 id: 4, name: "sharan2", image: "https://images.squarespace-cdn.com/content/v1/5c82f54e7980b375f3b91cb0/1553904496023-JZ9JVMIZ3SNATLKXL190/ke17ZwdGBToddI8pDm48kDACKg16QbLoicCdsPgFzpd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmaTo7R26YudazsZkiHIvjoiB41FYjsaf5gQ_5G47s7cv1RIjSGCD6L0ZeeFd3jvQA/Toon+Link+%288%29.png",
- password: "sharan", phone_number: 98234, email: "sapkota@gmail.com", orders: { "tv": 100 }  })
+ password: "sharan", phone_number: 98234, email: "sapkota@gmail.com", orders: [{"name":"TV",  "price": 100, "isActive": "false" }]  })
             server.create("order", { id: 14, name: "radio", isActive: true })
             server.create("order", { id: 24, name: "scissors", isActive: true })
         },
